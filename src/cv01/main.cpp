@@ -6,10 +6,10 @@
 #include <opencv2/imgproc.hpp>
 
 
-const cv::Mat toYuvKernel = (
+const cv::Mat_<float> toYuvKernel = (
     cv::Mat_<float>(3, 3) << 0.299, 0.587, 0.114, -0.14713, -0.28886, 0.436, 0.615, -0.51499, -0.10001);
 
-const cv::Mat toRgbKernel = (
+const cv::Mat_<float> toRgbKernel = (
     cv::Mat_<float>(3, 3) << 1, 0, 1.13983, 1, -0.39465, -0.5806, 1, 2.03211, 0);
 
 template<class T_DATA>
