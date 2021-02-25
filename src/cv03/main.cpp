@@ -98,7 +98,7 @@ static cv::Mat_<cv::Vec3b> colorHDR;
 static cv::Mat_<cv::Vec3b> outMat;
 
 
-static char *winName = "HDR setting";
+static const char *winName = "HDR setting";
 
 static const std::array<cv::Mat_<cv::Vec3b>, inputSequenceLen>
     inputImages = {
