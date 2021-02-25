@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(Bracketing)
+project(HDRBracketing)
 
 # add libs you need
 set(OpenCV_LIBS opencv_core opencv_imgproc opencv_highgui opencv_imgcodecs opencv_calib3d opencv_objdetect)
